@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<link href="./style.css" rel="stylesheet">
+
+	<script src="./script.js"></script>
+
+</head>
+<body>
+
+<header class="d-flex justify-content-center py-3 fixed-top bg-dark">
+  <ul class="nav nav-pills">
+    <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+</header>
+
+
+<div class="px-4 py-5 my-5 text-center" id="home">
+    <img class="d-block mx-auto mb-4" src="./assets/avatar.jpg" alt="" width="256" height="256">
+    <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">View my projects</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+  	<!-- Projects -->
+  	<div class="row">
+  	<div class="col-mg-12" id="projects">
+  	<h1 class="text-center">My Projects</h1>
+  	<div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./assets/Artboard 3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Rust</h5>
+                <p>A cool game</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/Artboard 4.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Second Slide</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/Artboard 6.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Third Slide</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/Artboard 7.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>4th Slide</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/Artboard 8.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-dark">5th Slide</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+  	</div>
+  </div>
+
+  	<!-- About Me Section -->
+  	<div class="row">
+  	<div class="col-md-12 mt-5" id="about">
+  		<h1 class="text-center">About me</h1>
+  		<p>Jason is a passionate game designer whose innovative and immersive creations captivate players around the world. With a keen eye for detail and a deep understanding of game mechanics, Jason has made a name for himself in the gaming industry. His journey began in childhood, fueled by a love for video games and a boundless imagination. This early fascination evolved into a career as he honed his skills in game design, narrative development, and user experience.</p>
+  	</div>
+  </div>
+
+  <div class="row justify-content-center">
+  	<div class="col-mg-12 mt-5" id="contact">
+  		<h1 class="text-center">Contact me</h1>
+  	</div>
+        <div class="col-md-12">
+                <div class="text-center">
+                    <p class="mb-2"><strong>Name:</strong> Jason</p>
+                    <p class="mb-2"><strong>Email:</strong> jason@example.com</p>
+                    <p class="mb-2"><strong>Phone:</strong> (123) 456-7890</p>
+                    <p class="mb-2"><strong>Address:</strong> 1234 Game Street, Imagination City, Creativity State, 56789</p>
+                    <p class="mb-0"><strong>Message:</strong> Feel free to reach out to me via email or phone. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                </div>
+        </div>
+  	</div>
+</div>
+
+</body>
+</html>
