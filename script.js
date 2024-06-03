@@ -54,10 +54,34 @@ document.addEventListener('DOMContentLoaded', (event) => {
         if (name === '' || email === '' || message === '') {
             alert('Please fill in all fields');
         } else {
-            alert('Form submitted successfully');
-            // Here you can add code to send the form data to your server
+            // Send the form data to your server
+            const formData = {
+                name: name,
+                email: email,
+                message: message
+            };
+
+            fetch('https://formspree.io/f/xzbnlvzp', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                alert('Form submitted successfully');
+                // Optionally, you can reset the form fields after successful submission
+                form.reset();
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('There was an error submitting the form');
+            });
         }
     });
 });
+
 
 
