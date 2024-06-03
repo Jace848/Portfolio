@@ -21,8 +21,8 @@
 
 
 .circle-image {
-    width: 280px;
-    height: 200px;
+    width: 260px;
+    height: 180px;
     transition: transform 0.5s ease-in-out;
 }
 
