@@ -8,15 +8,18 @@
 .red-text {
     color: #e1b382;
     font-weight: bold;
+    font-family: cursive;
 }
 
 .blue-text {
     color: #12343b;
     font-weight: bold;
+    font-family: cursive;
 }
 
 .bgTop{
   background: #c89666;
+  font-family: cursive;
 }
 
 
@@ -30,15 +33,15 @@
 .boxed-lg {
     border: 2px solid #000; /* black border */
     padding: 15px; /* add some padding inside the box */
-    margin: 10px 0; /* add some margin outside the box */
+    margin: 10px; /* add some margin outside the box */
     border-radius: 5px; /* optional: rounded corners */
-    background-color: #12343b;
+    background-color:  #12343b;
 }
 
 .boxed-projects {
     
     padding: 15px; /* add some padding inside the box */
-    margin: 10px 0; /* add some margin outside the box */
+    margin: 10px; /* add some margin outside the box */
     border-radius: 5px; /* optional: rounded corners */
     background-color: #12343b;
 }
@@ -52,7 +55,7 @@
 .boxed-about {
   
     padding: 15px;
-    margin: 10px 0;
+    margin: 10px;
     border-radius: 5px;
     background-color: #e1b382;
 }
@@ -140,5 +143,5 @@ h1 {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color:  #12343b;
 }
