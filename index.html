@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <div class="row boxed-lg">
+
+    <!-- Page Title -->
     <title>Jason Friend Portfolio</title>
 
     <!-- Bootstrap CSS -->
@@ -16,6 +17,7 @@
 </head>
 <body>
 
+<!-- Navigation Bar -->
 <header class="d-flex justify-content-center py-3 fixed-top bgTop">
     <ul class="nav nav-pills">
         <li class="nav-item"><a href="#home" class="nav-link blue-text">Home</a></li>
@@ -24,24 +26,28 @@
         <li class="nav-item"><a href="#contact" class="nav-link blue-text">Contact</a></li>
     </ul>
 </header>
+
+<!-- Home Section -->
 <div class="px-4 py-5 my-5 text-center" id="home">
-    <img class="d-block mx-auto mb-4 circle-image" src="./assets/avatar-image.png" alt="">
+    <img class="d-block mx-auto mb-4 circle-image" src="./assets/avatar-image.png" alt="Avatar Image">
     <h1 class="red-text">Jason Friend Portfolio</h1>
     <div class="col-lg-6 mx-auto">
         <p class="lead mb-4 red-text">Welcome to my portfolio! Here, you'll find a showcase of my work, highlighting my skills and creativity. Explore my projects and feel free to reach out if anything catches your eye. I'm always excited to connect and discuss potential collaborations or answer any questions you might have.</p>
     </div>
 </div>
 
+<!-- Main Container -->
 <div class="container">
 
-    <!-- Projects -->
-    <div class="row boxed-projects">
-        <div class="col-md-12" id="projects">
+    <!-- Projects Section -->
+    <div class="row boxed-projects" id="projects">
+        <div class="col-md-12">
             <h1 class="text-center red-text">Projects</h1>
             <div class="row">
                 <div class="col-md-12 mt-5">
                     <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
+                            <!-- Carousel Indicators -->
                             <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -52,56 +58,58 @@
                             <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
                         </div>
                         <div class="carousel-inner">
+                            <!-- Carousel Items -->
                             <div class="carousel-item active">
-                                <img src="./assets/project-1.png" class="d-block w-100" alt="...">
+                                <img src="./assets/project-1.png" class="d-block w-100" alt="Project 1">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h3 class="red-text">Hope Rising</h3>
                                     <p class="red-text">Game Concept Splash Screen</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/project-2.png" class="d-block w-100" alt="...">
+                                <img src="./assets/project-2.png" class="d-block w-100" alt="Project 2">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 class="blue-text">Hope Rising</h5>
                                     <p class="blue-text">Character Design</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/project-3.png" class="d-block w-100" alt="...">
+                                <img src="./assets/project-3.png" class="d-block w-100" alt="Project 3">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 class="blue-text">Character Concepts</h5>
                                     <p class="blue-text">Fantasy Game Concept</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/project-11.png" class="d-block w-100" alt="...">
+                                <img src="./assets/project-11.png" class="d-block w-100" alt="Project 4">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 class="red-text">2D Unity Game</h5>
-                                    <p class="red-text">Platforms, Enemeys, Gems, Shooting</p>
+                                    <p class="red-text">Platforms, Enemies, Gems, Shooting</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/project-6.png" class="d-block w-100" alt="...">
+                                <img src="./assets/project-6.png" class="d-block w-100" alt="Project 5">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 class="red-text">Unreal Engine</h5>
-                                    <p class="red-text">Enviroment Design</p>
+                                    <p class="red-text">Environment Design</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/project-10.png" class="d-block w-100" alt="...">
+                                <img src="./assets/project-10.png" class="d-block w-100" alt="Project 6">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 class="red-text">3D Unity FPS</h5>
                                     <p class="red-text">Guns, Animations, Zombies, Waves</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/project-8.png" class="d-block w-100" alt="...">
+                                <img src="./assets/project-8.png" class="d-block w-100" alt="Project 7">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 class="blue-text">Summit</h5>
                                     <p class="blue-text">Educational Mobile Math Game</p>
                                 </div>
                             </div>
                         </div>
+                        <!-- Carousel Controls -->
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
@@ -117,12 +125,12 @@
     </div>
 
     <!-- About Me Section -->
-    <div class="row boxed-about">
-        <div class="col-md-12 mt-5" id="about">
+    <div class="row boxed-about" id="about">
+        <div class="col-md-12 mt-5">
             <h1 class="text-center blue-text">About Me</h1>
             <div class="col-lg-6 mx-auto">
-                   <p class="lead mb-4 blue-text">I am a junior game developer with a passion for creating games and artwork. Skilled in C# and Unity, implementing interactive and engaging game features. Additionally, I am skilled in design applications such as Photoshop and Figma, allowing me to create compelling visual assets for games, presentations, and social media content.</p>
-           </div>   
+                <p class="lead mb-4 blue-text">I am a junior game developer with a passion for creating games and artwork. Skilled in C# and Unity, implementing interactive and engaging game features. Additionally, I am skilled in design applications such as Photoshop and Figma, allowing me to create compelling visual assets for games, presentations, and social media content.</p>
+            </div>   
             <h2 class="text-center blue-text">Skills</h2>
             <div class="skill-list">
                 <div class="skill-column">
@@ -140,39 +148,38 @@
                     </ul>
                 </div>
             </div>
+        </div>
+    </div>
 
     <!-- Contact Me Section -->
-    <form id="contact-form" action="https://formspree.io/f/xzbnlvzp" method="POST">
-     <div class="col-md-12 boxed-contacts">
-        <div class="row justify-content-center">
-            <div class="col-md-12 mt-5" id="contact">
-                <h1 class="text-center blue-text">Contact Me</h1>
-            </div>
+    <div class="row boxed-contacts" id="contact">
+        <div class="col-md-12 mt-5">
+            <h1 class="text-center blue-text">Contact Me</h1>
             <div class="text-center contact-details">
-                <p class="mb-2 blue-text"><strong >Name:</strong> Jason</p>
+                <p class="mb-2 blue-text"><strong>Name:</strong> Jason</p>
                 <p class="mb-2 blue-text"><strong>Email:</strong> jason@feyvision.com</p>
                 <p class="mb-2 blue-text"><strong>Phone:</strong> (123) 456-7890</p>
             </div>
-            <div class="col-md-6 mt-4">
-                <form id="contact-form">
-                    <div class="form-group blue-text">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" class="form-control" placeholder="Your Name">
-                    </div>
-                    <div class="form-group blue-text">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" class="form-control" placeholder="Your Email">
-                    </div>
-                    <div class="form-group blue-text">
-                        <label for="message">Message</label>
-                        <textarea id="message" class="form-control" rows="4" placeholder="Your Message"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary blue-text">Send Message</button>
-                </form>
-            </div>
         </div>
-
+        <div class="col-md-6 mt-4 mx-auto">
+            <form id="contact-form" action="https://formspree.io/f/xzbnlvzp" method="POST">
+                <div class="form-group blue-text">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="form-group blue-text">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="form-group blue-text">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn blue-text">Send Message</button>
+            </form>
+        </div>
     </div>
+
 </div>
 
 </body>
